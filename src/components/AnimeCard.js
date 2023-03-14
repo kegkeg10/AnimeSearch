@@ -14,7 +14,6 @@ function AnimeCard({anime}) {
 				<h3>{ anime.title }</h3>
 				<h3>Episodes:{ anime.episodes }</h3>
 				<h3>Length:{ anime.duration }</h3>
-				<h3>Type:{ anime.type }</h3>
 			</a>
 		</article>
 	)
