@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "./components/header";
 //import Sidebar from "./components/Sidebar";
 import Maincontent from "./components/maincontent";
+import Navbar from "./components/Navbar";
 
 
 function App() {
@@ -32,11 +33,10 @@ function App() {
     getTopAnime();
   }, []);
 
-  
 
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <div className="content-wrap">
         <Maincontent
             HandleSearch={HandleSearch}

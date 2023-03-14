@@ -7,6 +7,54 @@
   background-color: f2f2f2;
 }
 
+.nav {
+  background-color: #edd283;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site-title {
+  background-color: #fdba56;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+  font-size: 2.3rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .27rem;
+}
+
+.nav li.hover {
+  background-color: #777;
+}
+.nav li.active {
+  background-color: #555;
+}
+
+
 header {
   padding-top: 50px;
   padding-bottom: 30px;
