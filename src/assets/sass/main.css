@@ -176,6 +176,15 @@ header h1 strong {
   .content-wrap main {
     padding: 0;
   }
+
+  .content-wrap main .main-head {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content-wrap main .main-head .search-box {
+    order: -1;
+    margin-bottom: 20px;
+  }
   /* Adjust the search box input */
   .content-wrap main .main-head .search-box input {
     padding: 16px;
