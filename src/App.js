@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Header from "./components/header";
-import Sidebar from "./components/Sidebar";
+//import Sidebar from "./components/Sidebar";
 import Maincontent from "./components/maincontent";
 
 
@@ -38,7 +38,6 @@ function App() {
     <div className="App">
       <Header />
       <div className="content-wrap">
-          <Sidebar topAnime={topAnime} />
         <Maincontent
             HandleSearch={HandleSearch}
             search={search}
